@@ -1,4 +1,5 @@
-```#!/usr/bin/python
+```
+#!/usr/bin/python
 import csv
 import glob
 import os
@@ -20,4 +21,6 @@ for input_file in glob.glob(os.path.join(input_path,'*.csv')):
                         for row in filereader:
                                 filewriter.writerow(row)
         file_counter += 1
+        
+        
         ```
